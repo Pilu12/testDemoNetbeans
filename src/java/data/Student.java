@@ -20,6 +20,14 @@ public class Student {
         this.name = name;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+    
     @Override
     public String toString() {
         String str = String.format("This is %-10s", name);
