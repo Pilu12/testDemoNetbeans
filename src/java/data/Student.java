@@ -11,7 +11,7 @@ package data;
  */
 public class Student {
     private String name;
-
+    private String gender;
     public String getName() {
         return name;
     }
