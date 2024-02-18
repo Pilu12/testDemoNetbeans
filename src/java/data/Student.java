@@ -19,6 +19,12 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        String str = String.format("This is %-10s", name);
+        return str;
+    }
     
 }
 
